@@ -1,0 +1,251 @@
+body{
+	background-color: #fff5ee;
+	width: 100%;
+	height: 3000px;
+}
+
+#main{
+	width:100%;
+	height:120%;
+	overflow: hidden;
+}
+
+
+#logo{
+  font-size: 80px;
+  font-family: Candara ,sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+
+}
+
+.buttons{
+	text-align: center;
+	font-family: 'Candara', sans-serif;
+	color: #ff8243;
+	margin-bottom: 10px;
+}
+
+	#homebutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+		border-radius: 2px;
+	}
+		#homebutton:hover{
+			 border-bottom: 2px solid;
+		}
+	#aboutbutton{
+		padding-left: 5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+	#catalogbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #faqbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #contactbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+a{
+	color:#ff8243;
+}
+a:hover{
+	color:#30231d;
+}
+
+.buttons a:hover{
+	border-bottom: 2px solid #ff8243;
+}
+
+.buttons .highlight{
+	color: #30231d;
+	border-bottom: 2px solid #ff8243;
+}
+
+.bigsection{
+  width: 100%;
+  height: 80%;
+  background-image: url(../images/catalogbg.jpg);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+	margin-top: 20px;
+
+  }
+
+.bigcollection{
+	font-family: 'Cambo', serif;
+
+  position: absolute;
+  width: 2%;
+  color: white;
+ 	font-size: 500%;
+	font-weight: bold;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+.line{
+  position: absolute;
+  width: 148px;
+  height: 47px;
+  border-bottom: 5px solid white;
+  margin-left: 20%;
+	margin-top: 28%;
+    }
+
+.smallcollection{
+	font-family: 'Cambo', serif;
+
+  position: absolute;
+  font-weight: lighter;
+  margin-left: 20%;
+	margin-top: 33%;
+  color: white;
+  font-size: 200%;
+
+}
+
+#featured{
+  	width: 90%;
+  	position: absolute;
+
+}
+
+.catalogsection{
+  position: absolute;
+	width: 100%;
+	height: 90%;
+	margin-top: 45%;
+}
+
+#images .one{
+  width: 20%;
+  height:60%;
+	margin-top: 8%;
+	margin-left: 27%;
+	position: absolute;
+}
+
+#images .one:last-child{
+  display: none;
+}
+
+.catalog2{
+  width: 28%;
+  height:96%;
+	margin-top: 8%;
+	margin-left: 54%;
+	position: absolute;
+}
+
+.catalogtext{
+  position: absolute;
+	font-family: 'Cambo', serif;
+  font-size: 150%;
+  width:26%;
+  margin-top: 42%;
+	margin-left: 24%;
+}
+
+.shopnow{
+  position: absolute;
+  font-weight: bold;
+  font-size: 140%;
+  width:26%;
+  margin-top: 54%;
+ margin-left: 24%;
+ text-decoration: underline;
+}
+
+#images2 .two{
+  width: 28%;
+  height:90%;
+  margin-top: 60%;
+  margin-left: 22%;
+  position: absolute;
+}
+
+#images2 .two:last-child{
+  display: none;
+}
+
+.catalogtext2{
+	font-family: 'Cambo', serif;
+  position: absolute;
+  font-size: 150%;
+  width:26%;
+  margin-top: 60%;
+  margin-left: 55%;
+  z-index: 100;
+}
+
+
+.catalog4{
+  width: 16%;
+  height:44%;
+  margin-top: 70%;
+  margin-left: 54%;
+  position: absolute;
+}
+
+.catalog5{
+  width: 16%;
+  height:44%;
+  margin-top: 80%;
+  margin-left: 67%;
+  position: absolute;
+}
+
+
+
+.catalog6{
+  width: 18%;
+  height:50%;
+  margin-top: 122%;
+  margin-left: 26%;
+  position: absolute;
+}
+
+.catalog7{
+  width: 28%;
+  height:80%;
+  margin-top: 110%;
+  margin-left: 54%;
+  position: absolute;
+}
+
+.catalogtext3{
+	font-family: 'Cambo', serif;
+  position: absolute;
+  font-size: 150%;
+  width:26%;
+  margin-top: 112%;
+  margin-left: 24%;
+  z-index: 100;
+}

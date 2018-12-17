@@ -1,0 +1,133 @@
+body{
+	background-color: #fff5ee;
+	width: 100%;
+  margin-bottom: 40px;
+}
+
+#main{
+	width:100%;
+	height:120%;
+	overflow: hidden;
+}
+
+
+#logo{
+  font-size: 80px;
+  font-family: Candara ,sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'Cambo', serif;
+	text-align: center;
+
+}
+
+
+
+
+.line {
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.section-header{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
+
+.buttons{
+	text-align: center;
+	font-family: 'Candara', sans-serif;
+	color: #ff8243;
+	margin-bottom: 10px;
+}
+
+	#homebutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+		border-radius: 2px;
+	}
+		#homebutton:hover{
+			 border-bottom: 2px solid;
+		}
+	#aboutbutton{
+		padding-left: 5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+	#catalogbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #faqbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #contactbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+a{
+	color:#ff8243;
+}
+a:hover{
+	color:#30231d;
+}
+
+.buttons a:hover{
+	border-bottom: 2px solid #ff8243;
+}
+
+.buttons .highlight{
+	color: #30231d;
+	border-bottom: 2px solid #ff8243;
+}
+
+
+
+
+
+.contact-section{
+position: absolute;
+margin-top: 2px;
+margin-left: 34%;
+height: 50%;
+width: 30%;
+background-color: white;
+border-radius: 10px;
+}
+
+form{
+font-family: 'Cambo', serif;
+font-weight: bold;
+text-align: center;
+margin-top: 30px;
+}
+
+
+
+.msg{
+  margin-top: 20px;
+}

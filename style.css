@@ -1,0 +1,235 @@
+body{
+	width: 100%;
+	background-color: #fff5ee;
+}
+
+#main{
+	width:100%;
+	height:600%;
+	overflow: hidden;
+}
+
+
+#logo{
+  font-size: 80px;
+  font-family: Candara ,sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+
+}
+
+.buttons{
+	text-align: center;
+	font-family: 'Candara', sans-serif;
+	color: #ff8243;
+	margin-bottom: 10px;
+}
+
+	#homebutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+		border-radius: 2px;
+	}
+		#homebutton:hover{
+			 border-bottom: 2px solid;
+		}
+	#aboutbutton{
+		padding-left: 5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+	#catalogbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #faqbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+
+  #contactbutton{
+		padding-left:5px;
+		padding-right: 5px;
+		text-decoration: none;
+		font-size: 20px;
+		display: inline-block;
+	}
+a{
+	color:#ff8243;
+}
+a:hover{
+	color:#30231d;
+}
+
+.buttons a:hover{
+	border-bottom: 2px solid #ff8243;
+}
+
+.buttons .highlight{
+	color: #30231d;
+	border-bottom: 2px solid #ff8243;
+}
+
+.slideshow-container{
+position: relative;
+  height: 13%;
+  margin-top: 20px;
+}
+
+.slideshowbg{
+position: absolute;
+background-color: #30231d;
+width: 200%;
+height: 200%;
+
+}
+
+
+
+.Slides{
+ 	height: 660px;
+ }
+
+
+img{
+height: auto;
+text-align: center;
+display: inline-block;
+border-width: hidden;
+}
+
+
+
+.photo1{
+opacity: .95;
+width: 23%;
+height: 80%;
+animation-duration: 1s;
+animation-name: photo1-fade;
+position: absolute;
+margin-top: 5%;
+margin-left: 11%;
+
+}
+
+@keyframes photo1-fade {
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+.text {
+font-family: 'Cambo', serif;
+position: absolute;
+text-align: center;
+width:30%;
+color: #ff8243;
+font-size: 360%;
+font-weight: bold;
+margin-left: 36%;
+margin-top: 27%;
+animation-duration: 3s;
+animation-name: text-fade;
+
+}
+
+
+@keyframes text-fade{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+.photo2{
+width: 16%;
+margin-top: 2%;
+margin-left: 44%;
+position: absolute;
+animation-duration: 2s;
+animation-name: photo2-fade;
+}
+
+@keyframes photo2-fade{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+
+
+.photo3{
+position: absolute;
+width: 23%;
+height:90%;
+margin-left: 68%;
+margin-top: 1;
+animation-duration: 3s;
+animation-name: photo3-fade;
+opacity: .95;
+}
+
+@keyframes photo3-fade{
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+
+.prev, .next{
+cursor: pointer;
+position: absolute;
+width: auto;
+margin-top: -25%;
+color: white;
+padding: 3%;
+font-weight: bold;
+font-size: 110%;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+
+}
+
+.next{
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.dots{
+position: absolute;
+padding-left: 49%;
+margin-top: -30px;
+
+}
+
+
+.prev:hover, .next:hover{
+background-color: rgba(0,0,0,0.8);
+}
+
+
+.dot{
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 1px;
+background-color: #bbb;
+border-radius: 20%;
+display: inline-block;
+}
+
+
+.active, .dot:hover{
+background-color: #717171;
+}
